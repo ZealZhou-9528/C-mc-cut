@@ -19,7 +19,7 @@ int main()
 {
 	omp_set_num_threads(8);
 	int CutNum, nn, NLeng, Nx, Ny, Nz;
-	CutNum = 10;              //切割次数
+	CutNum = 20;              //切割次数
 	double Magnitude = 1;     //周期幅度
 	double BasicR = 1;        //纤维半径
 	double Cycle = 10;        //纤维周期长度
